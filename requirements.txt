@@ -1,0 +1,13 @@
+# Python-side requirements inferred from original scripts.
+# Webots' `controller` and `vehicle` modules are installed with Webots itself.
+# The versions used by the author were not supplied; test compatible versions in Webots.
+numpy
+opencv-python
+gymnasium
+stable-baselines3
+matplotlib
+torch
+torchvision
+tensorflow
+keras
+jupyter

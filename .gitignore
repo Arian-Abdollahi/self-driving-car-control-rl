@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Trained models and experimental data
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+runs/
+logs/
+training_logs/
+tensorboard/
+*.tfevents.*
+ppo_model*.zip
+mlp_model*.zip
+
+# Webots and native build outputs
+*.so
+*.dll
+*.dylib
+*.o
+*.obj
+*.exe
+phase3_Resnet/controllers/radar_target_tracker/radar_target_tracker
+
+# Notebook temporary files
+.ipynb_checkpoints/
